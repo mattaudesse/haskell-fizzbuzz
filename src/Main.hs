@@ -15,5 +15,6 @@ fizzbuzz u =
      in intercalate "\n" (transform <$> [1..u])
 
 
+main :: IO ()
 main =
   putStrLn $ fizzbuzz 100
